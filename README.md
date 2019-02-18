@@ -8,9 +8,9 @@
 
 # N7DDC ATU-100 extended board
 ---
-## The flexible tunable firmware for ATU from 5x5 to 7x7 elements, up to 1500 Watt prower
+## The flexible tunable firmware for ATU from 5x5 to 7x7 elements, up to 1500 Watt power
 
-## The autor's 7x7 elements 100 Watt version
+### The autor's 7x7 elements 100 Watt version
 
 ![screenshot](http://www.sdr-deluxe.com/downloads/ATU-100_mini/ext_1.jpg)
 
@@ -24,4 +24,6 @@
 
 ![screenshot](http://www.sdr-deluxe.com/downloads/ATU-100_mini/case_3.jpg)
 
-## AS example 500 Watt ATU designed by
+## AS example 1000 Watt ATU designed by EU2AV (VIDEO)
+
+[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://img.youtube.com/vi/sg7_t37SJJg/hqdefault.jpg)]https://www.youtube.com/watch?v=sg7_t37SJJg)
