@@ -26,4 +26,4 @@
 
 ## AS example 1000 Watt ATU designed by EU2AV (VIDEO)
 
-[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://img.youtube.com/vi/sg7_t37SJJg/hqdefault.jpg)]https://www.youtube.com/watch?v=sg7_t37SJJg)
+[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://img.youtube.com/vi/sg7_t37SJJg/hqdefault.jpg)](https://www.youtube.com/watch?v=sg7_t37SJJg)
