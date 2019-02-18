@@ -30,4 +30,4 @@
 
 ## ATU-100 7x7 demo with M0NKA transceiver in Auto mode, LZ2GX (VIDEO)
 
-[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://img.youtube.com/vi/YCMcanrXEcg&t/hqdefault.jpg)](https://www.youtube.com/watch?v=YCMcanrXEcg&t)
+[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/YCMcanrXEcg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDr-2GBRi98De-Rub75mheciUqw6g)](https://www.youtube.com/watch?v=YCMcanrXEcg&t)
