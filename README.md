@@ -32,7 +32,7 @@
 
 [![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/YCMcanrXEcg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDr-2GBRi98De-Rub75mheciUqw6g)](https://www.youtube.com/watch?v=YCMcanrXEcg&t)
 
-## ATU-100 5x5 Auto mode with FT-991 (VIDEO)
+## ATU-100 5x5 Auto mode with FTdx-1200 (VIDEO)
 
 [![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/O6UJ5CSuX3I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC7vJC2mMtkhjwbAYqz1A_gWNuLtA)](https://www.youtube.com/watch?v=O6UJ5CSuX3I)
 
