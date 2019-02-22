@@ -1,6 +1,6 @@
 # N7DDC ATU-100 mini board
 ---
-## The easy DIY 5x5 elements 100 Watt antenna tuner 
+## The easy DIY 5x5 elements 100 Watt automatic antenna tuner 
 
 ![screenshot](http://www.sdr-deluxe.com/downloads/ATU-100_mini/mini_1.jpg)
 
@@ -8,7 +8,7 @@
 
 # N7DDC ATU-100 extended board
 ---
-## The flexible tunable firmware for ATU from 5x5 to 7x7 elements, up to 1500 Watt power
+## The flexible tunable firmware for ATU from 5x5 to 7x7 elements, up to 1500 Watt measured power
 
 ### The autor's 7x7 elements 100 Watt version
 
@@ -16,7 +16,7 @@
 
 ![screenshot](http://www.sdr-deluxe.com/downloads/ATU-100_mini/ext_2.jpg)
 
-# 3D printed case for 0.91" OLED display, 3 buttons and TNC RF connectors
+# 3D printed housing for 0.91" OLED display, 3 buttons and TNC RF connectors
 
 ![screenshot](http://www.sdr-deluxe.com/downloads/ATU-100_mini/case_1.jpg)
 
@@ -36,6 +36,6 @@
 
 [![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/O6UJ5CSuX3I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC7vJC2mMtkhjwbAYqz1A_gWNuLtA)](https://www.youtube.com/watch?v=O6UJ5CSuX3I)
 
-## The first video form N7DDC, 5x5 elements, ENGLISH subtitles (VIDEO)
+## The first video from N7DDC, 5x5 elements, ENGLISH subtitles (VIDEO)
 
 [![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/zBjliED9-OE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCmnk9ChmyDpkg_l3T91twONpX8vw)](https://www.youtube.com/watch?v=zBjliED9-OE&t)
