@@ -1,11 +1,9 @@
 # The latest wirmware version from me - 2.9. Project is closed.
 ## Sourscode is available.
-## Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
-
-## This sells was added:  (for mini board, see the manual)
-
-## 30 – sell for setting the time of glow dysplay or its backlite, in seconds .
-## The backlite is glowing whilw press any buttons and if RF power comes to input.П
+### Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
+This sells was added:  (for mini board, see the manual)
+30 – sell for setting the time of glow dysplay or its backlite, in seconds .
+The backlite is glowing whilw press any buttons and if RF power comes to input.П
 ## By default it is disabled, value 00.
 
 ## 31 — cell for setting of an addidional indication mode,  
