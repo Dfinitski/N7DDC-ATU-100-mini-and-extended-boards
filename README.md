@@ -1,6 +1,6 @@
 # The latest wirmware version from me - 2.9.
 ## Sourscode is available.
-### Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
+## Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
  This sells was added:  (for mini board, see the manual)
 
 32 – sell for setting the time of glow dysplay or his backlite, in seconds .
@@ -13,8 +13,8 @@ value 01 — for indicating the power delivered to the antenna and efficiency of
 By default is enable, value 01.
 
    Warning!!! The device does not take into account  its own efficiency.
-
-    34 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
+   
+ ##   34 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
    If it is not necessary to take into account feeder losses, the value 00 should be written into the cell, then the calculations will correspond only to the mismatch losses.
 
 ---
