@@ -4,7 +4,7 @@
 
 ## This sells was added:  (for mini board, see the manual)
 
-## 30 – sell for setting the time of glow dysplay or his backlite, in seconds .
+## 30 – sell for setting the time of glow dysplay or its backlite, in seconds .
 ## The backlite is glowing whilw press any buttons and if RF power comes to input.П
 ## By default it is disabled, value 00.
 
@@ -18,10 +18,10 @@
  ##   32 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
 ## If it is not necessary to take into account feeder losses, the value 00 should be written into the cell, then the calculations will correspond only to the mismatch losses.
 
----
+
 
 # N7DDC ATU-100 mini board
----
+
 ## The easy DIY 5x5 elements 100 Watt automatic antenna tuner 
 
 ![screenshot](http://www.sdr-deluxe.com/downloads/ATU-100_mini/mini_1.jpg)
