@@ -1,21 +1,22 @@
-# The latest wirmware version from me - 2.9.
+# The latest wirmware version from me - 2.9. Project is closed.
 ## Sourscode is available.
 ## Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
- This sells was added:  (for mini board, see the manual)
 
-32 – sell for setting the time of glow dysplay or his backlite, in seconds .
-The backlite is glowing whilw press any buttons and if RF power comes to input.П
-By default it is disabled, value 00.
+## This sells was added:  (for mini board, see the manual)
 
-33 — cell for setting of an addidional indication mode,  
-value 00 — for indicating L and C only. 
-value 01 — for indicating the power delivered to the antenna and efficiency of fider and transmitter пwhen input power is enough for correct SWR meassuring.
-By default is enable, value 01.
+## 30 – sell for setting the time of glow dysplay or his backlite, in seconds .
+## The backlite is glowing whilw press any buttons and if RF power comes to input.П
+## By default it is disabled, value 00.
 
-   Warning!!! The device does not take into account  its own efficiency.
+## 31 — cell for setting of an addidional indication mode,  
+## value 00 — for indicating L and C only. 
+## value 01 — for indicating the power delivered to the antenna and efficiency of fider and transmitter пwhen input power is enough for correct SWR meassuring.
+## By default is enable, value 01.
+
+##    Warning!!! The device does not take into account  its own efficiency.
    
- ##   34 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
-   If it is not necessary to take into account feeder losses, the value 00 should be written into the cell, then the calculations will correspond only to the mismatch losses.
+ ##   32 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
+## If it is not necessary to take into account feeder losses, the value 00 should be written into the cell, then the calculations will correspond only to the mismatch losses.
 
 ---
 
