@@ -8,7 +8,7 @@ By default it is disabled, value 00.
 
 31 — cell for setting of an addidional indication mode, 
 value 00 — for indicating L and C only. 
-value 01 — for indicating the power delivered to the antenna and efficiency of fider and transmitter пwhen input power is enough for correct SWR meassuring. By default is enable, value 01.
+Value 01 — for indicating the power delivered to the antenna and efficiency of fider and transmitter пwhen input power is enough for correct SWR meassuring. By default is enable, value 01.
 
 Warning!!! The device does not take into account  its own efficiency.
 
