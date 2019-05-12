@@ -8,8 +8,8 @@ By default it is disabled, value 00.
 
 31 — cell for setting of an addidional indication mode, 
 value 00 — for indicating L and C only. 
-value 01 — for indicating the power delivered to the antenna and efficiency of fider and transmitter пwhen input power is enough for correct SWR meassuring.
-By default is enable, value 01.
+value 01 — for indicating the power delivered to the antenna and efficiency of fider and transmitter пwhen input power is enough for correct SWR meassuring. By default is enable, value 01.
+
 Warning!!! The device does not take into account  its own efficiency.
 
 32 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
