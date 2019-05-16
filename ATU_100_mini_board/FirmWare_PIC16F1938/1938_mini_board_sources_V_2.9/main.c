@@ -129,7 +129,7 @@ void main() {
      //
      if(Button(&PORTB, 5, 50, 0)){   // BYP button
         asm CLRWDT;
-        while(Button(&PORTB, 2, 50, 0)) {
+        while(Button(&PORTB, 5, 50, 0)) {
            if(L & ind<31) {
               ind ++;
               set_ind(ind);
@@ -147,7 +147,7 @@ void main() {
      //
      if(Button(&PORTB, 4, 50, 0) & Bypas==0){   // Auto button
         asm CLRWDT;
-        while(Button(&PORTB, 1, 50, 0)) {
+        while(Button(&PORTB, 4, 50, 0)) {
            if(L & ind>0) {
               ind --;
               set_ind(ind);
