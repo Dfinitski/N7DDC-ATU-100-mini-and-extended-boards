@@ -48,7 +48,10 @@ void main() {
    //
    Delay_ms(200);
    asm CLRWDT;
-   if(PORTB.B1==0 & PORTB.B2==0) Test = 1;      // Test mode
+   if(PORTB.B1==0 & PORTB.B2==0) { // Test mode
+      Test = 1;
+      Auto = 0;
+   }
    if(L_q==5)L_mult = 1;
    else if(L_q==6) L_mult = 2;
    else if(L_q==7) L_mult = 4;
