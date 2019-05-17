@@ -53,7 +53,10 @@ void main() {
    //
    Delay_ms(200);
    asm CLRWDT;
-   if(PORTB.B4==0 & PORTB.B5==0) Test = 1;      // Test mode
+   if(PORTB.B4==0 & PORTB.B5==0) { // Test mode
+      Test = 1;
+      Auto = 0;
+   }
    led_init();
    if(PORTB.B4==0 & PORTB.B5==0 & PORTB.B0==0)  { // Fast Test mode (loop)
       if(type==1) led_wr_str (0, 3, "FAST TEST", 9); // 1602
