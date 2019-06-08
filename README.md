@@ -1,19 +1,38 @@
-# The latest wirmware version from me - 2.9. Project is closed.
+# The latest wirmware version from me - 3.0. Project is closed.
 ## Sourscode is available.
 ### Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
-These sells were added in 2.9 firmware for EXT board :
-30 – sell for setting the time of glow dysplay or its backlite, in seconds .
+These sells were added in 3.0 firmware for EXT board :
+
+31 - cell for setting a ratio of turns of the tandem match on which depends the upper limit of the measured power. The default value is 10, which corresponds to a maximum measured power of about 150 watts.
+ To be able to measure power up to 1500 watts, you should use the high power indication mode and a tandem match with a ratio of 1 to 32.
+   If the power does not exceed 40 watts, it makes sense to use a tandem-match with a ratio of 1: 5 turns, which will allow to work better with a minimum power of 1-5 watts.
+    For other power values, the ratio of turns should be calculated so that the voltage at the measuring inputs of the microprocessor at maximum power does not exceed 4.096 Volts for the PIC16F1938 processor and 5.0 Volts for the PIC18F2520 processor.
+
+32 – sell for setting the time of glow dysplay or its backlite, in seconds .
 The backlite is glowing whilw press any buttons and if RF power comes to input.П
 By default it is disabled, value 00.
 
-31 — cell for setting of an addidional indication mode, 
+33 — cell for setting of an addidional indication mode, 
 value 00 — for indicating L and C only. 
 Value 01 — for indicating the power delivered to the antenna and efficiency of fider and transmitter пwhen input power is enough for correct SWR meassuring. By default is enable, value 01.
 
 Warning!!! The device does not take into account  its own efficiency.
 
-32 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
+34 — cell for setting a feeder power loss ratio, the first number — integer part of decibell, second number — ten’s parts of decibell. Velue by default — 1.2 (12 writen in the cell). this value uses for counting the power delivered to antenna. The loss value can be found in the reference data for the used cable or you can measure the exact value yourself.
 If it is not necessary to take into account feeder losses, the value 00 should be written into the cell, then the calculations will correspond only to the mismatch losses.
+
+For mini board :
+
+0A - cell for setting a ratio of turns of the tandem match on which depends the 
+upper limit of the measured power . The default value is 10, which corresponds to a 
+maximum measured power of about 150 watts.
+  If the power does not exceed 40 watts, it makes sense to use a tandem-match with 
+a ratio of 1:5 turns, which will allow to work better with a minimum power of 1 -5 
+watts.
+For other power values, the ratio of turns should be calculated so that the voltage 
+at the measuring inputs of the microprocessor at maximum power does not exceed 
+4.096 Volts for the PIC16F1938 processor and 5.0 Volts for the PIC18F2520 
+processor.
 
 
 
