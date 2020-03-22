@@ -33,7 +33,7 @@ void main() {
    if(STATUS.B4==0) Restart = 1;
    pic_init();
    //
-   Delay_ms (100);
+   Delay_ms (300);
    asm CLRWDT;
    cells_init();
    Soft_I2C_Init();
@@ -43,7 +43,7 @@ void main() {
    }
    dysp_cnt = Dysp_delay * dysp_cnt_mult;
    //
-   Delay_ms(200);
+   Delay_ms(300);
    asm CLRWDT;
     //
    if(PORTB.B1==0 & PORTB.B2==0) {  // Test mode
