@@ -61,13 +61,13 @@ int correction(int input) {
 //
 
    int get_reverse() {
-   return ADC_Get_Sample(0) * 4.883;
+   return ADC_Get_Sample(1) * 4.883;
 }
 //
 
 int get_forward() {
    int Forward;
-   Forward = ADC_Get_Sample(1);
+   Forward = ADC_Get_Sample(0);
    if(Forward==1024) Overload = 1;
    else Overload = 0;
    return Forward * 4.883;
