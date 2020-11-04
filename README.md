@@ -4,7 +4,7 @@
 
 The fider loss value now is zero by default, the tuner board shows mismatch loss only. 
 To install your actual fider loss, power on the board with pushed TUNE button, use BYP and AUTO buttons to set needed value.
-The value will be saved automatically in the long-term memory (0x34 cell for extended board or 0x32 cell for mini boards).
+The value will be saved immediatelly in the long-term memory (0x34 cell for extended board or 0x32 cell for mini boards).
 
 Some errors were fixed.
 
