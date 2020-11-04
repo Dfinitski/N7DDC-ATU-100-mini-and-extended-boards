@@ -2,7 +2,7 @@
 
 ### New in the version 3.1 
 
-The fider loss value now is zero by default, the tuner bard shows mismatch loss only. 
+The fider loss value now is zero by default, the tuner board shows mismatch loss only. 
 To install your actual fider loss, power on the board with pushed TUNE button, use BYP and AUTO buttons to set needed value.
 The value will be saved automatically in the long-term memory (0x34 cell for extended board or 0x31 cell for mini boards).
 
