@@ -1,6 +1,6 @@
-# The latest wirmware version is 3.1
+# The latest firmware version is 3.1
 
-### New in the 3.1 firmware version
+### New in the version 3.1 
 
 The fider loss value now is zero by default, the tuner bard shows mismatch loss only. 
 To install your actual fider loss, power on the board with pushed TUNE button, use BYP and AUTO buttons to set needed value.
@@ -10,7 +10,12 @@ Some errors was fixed.
 
 Overload indication is fixed. It works when the input power exceeds the board possibility to meassure correct power.
 
-### New in the 3.0 firmware verion
+
+## How to rebuild a 100 Watt board to reliable work with QRP 1 - 5 Watt power, by EU2AV (VIDEO)
+
+[![](https://www.youtube.com/watch?v=dPys_-_wPcQ&t=0s/hqdefault.jpg)](https://www.youtube.com/watch?v=dPys_-_wPcQ&t=0s)
+
+### New in the version 3.0
 Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
 These sells were added in 3.0 firmware for EXT board :
 
@@ -78,12 +83,12 @@ processor.
 
 ## ATU-100 7x7 demo with M0NKA transceiver in Auto mode, LZ2GX (VIDEO)
 
-[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/YCMcanrXEcg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDr-2GBRi98De-Rub75mheciUqw6g)](https://www.youtube.com/watch?v=YCMcanrXEcg&t)
+[![](https://i.ytimg.com/vi/YCMcanrXEcg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDr-2GBRi98De-Rub75mheciUqw6g)](https://www.youtube.com/watch?v=YCMcanrXEcg&t)
 
 ## ATU-100 5x5 Auto mode with FTdx-1200 (VIDEO)
 
-[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/O6UJ5CSuX3I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC7vJC2mMtkhjwbAYqz1A_gWNuLtA)](https://www.youtube.com/watch?v=O6UJ5CSuX3I)
+[![](https://i.ytimg.com/vi/O6UJ5CSuX3I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC7vJC2mMtkhjwbAYqz1A_gWNuLtA)](https://www.youtube.com/watch?v=O6UJ5CSuX3I)
 
 ## The first video from N7DDC, 5x5 elements, ENGLISH subtitles (VIDEO)
 
-[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](https://i.ytimg.com/vi/zBjliED9-OE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCmnk9ChmyDpkg_l3T91twONpX8vw)](https://www.youtube.com/watch?v=zBjliED9-OE&t)
+[![](https://i.ytimg.com/vi/zBjliED9-OE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCmnk9ChmyDpkg_l3T91twONpX8vw)](https://www.youtube.com/watch?v=zBjliED9-OE&t)
