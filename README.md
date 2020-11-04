@@ -11,9 +11,9 @@ Some errors was fixed.
 Overload indication is fixed. It works when the input power exceeds the board possibility to meassure correct power.
 
 
-## How to rebuild a 100 Watt board to reliable work with QRP 1 - 5 Watt power, by EU2AV (VIDEO)
+## How to rebuild a 100 Watt board to reliable work with QRP 1 - 5 Watt power, by ik3ssg (VIDEO)
 
-[![](https://www.youtube.com/watch?v=dPys_-_wPcQ&t=0s/hqdefault.jpg)](https://www.youtube.com/watch?v=dPys_-_wPcQ&t=0s)
+[![](https://www.youtube.com/dPys_-_wPcQ&t=0s/hqdefault.jpg)](https://www.youtube.com/watch?v=dPys_-_wPcQ&t=0s)
 
 ### New in the version 3.0
 Added the ability to turn off the display backlight by timer and indication of the power delivered to the antenna and the transmitter efficiency.
