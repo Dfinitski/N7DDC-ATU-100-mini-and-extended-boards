@@ -2,11 +2,11 @@
 
 ### New in the version 3.2 
 
-1) Fixed an error of continious data transfer to the display.
-2) Was added a new feature to turn off all the realays together with the display by timer. New cell 35 - 01 to activate relay off functionalty.
-   Timer for display off is cell 32.
-   You can use thus future in your QRP setup where power consumption is critical.
-3) The time of waiting a display reset was increased to 2 seconds. It is required for some OLED displays with very long RC cirquit on the reset pin.
+1) Fixed bug with continuous data transfer to the display.
+2) Added a new ability to disable all reals along with the timer display. New section 35 - 01 to activate the relay off function.
+     Display Off Timer - Section 32.
+     You can use this future in your QRP setup where power consumption is critical.
+3) Timeout for display reset increased to 2 seconds. This is required for some OLED displays with a very long RC chain on the reset pin.
 
 ### New in the version 3.1 
 
