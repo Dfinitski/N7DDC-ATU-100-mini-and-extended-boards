@@ -1,6 +1,6 @@
 # The latest firmware version is 3.2
 
-### New in the version 3.1 
+### New in the version 3.2 
 
 1) Fixed an error of continious data transfer to the display.
 2) Was added a new feature to turn off all the realays together with the display by timer. New cell 35 - 01 to activate relay off functionalty.
