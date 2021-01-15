@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F1938 -DL -O11111114 -fo16 -EH"D:\Projects\ATU-100\fw_EXT_3.2\1938_EXT_board_sources_V_3.2\atu_100_fw_00.ihex" -N"D:\Projects\ATU-100\fw_EXT_3.2\1938_EXT_board_sources_V_3.2\atu_100_fw_00.mcppi" -SP"C:\Users\ROLIN\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\ROLIN\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16_Enh\" -SP"D:\Projects\ATU-100\fw_EXT_3.2\1938_EXT_board_sources_V_3.2\" -IP"C:\Users\ROLIN\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16_Enh\" "pic_init.c" "oled_control.c" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_Button.mcl" "__Lib_ADC.mcl" "__Lib_EEPROM.mcl"	 
+hint: 0	1139	Available RAM: 1016 [bytes], Available ROM: 16384 [bytes]	 
+diagnostics: 0	122	Compilation Started	pic_init.c
+diagnostics: 48	123	Compiled Successfully	pic_init.c
+diagnostics: 0	122	Compilation Started	oled_control.h
+diagnostics: 407	123	Compiled Successfully	oled_control.c
+diagnostics: 0	122	Compilation Started	oled_control.h
+diagnostics: 903	123	Compiled Successfully	main.c
+diagnostics: 0	127	All files Compiled in 171 ms	 
+hint: 0	1144	Used RAM (bytes): 860 (85%)  Free RAM (bytes): 156 (15%)	Used RAM (bytes): 860 (85%)  Free RAM (bytes): 156 (15%)
+hint: 0	1144	Used ROM (program words): 15269 (93%)  Free ROM (program words): 1115 (7%)	Used ROM (program words): 15269 (93%)  Free ROM (program words): 1115 (7%)
+diagnostics: 0	125	Project Linked Successfully	atu_100_fw_00.mcppi
+diagnostics: 0	128	Linked in 110 ms	 
+diagnostics: 0	129	Project 'atu_100_fw_00.mcppi' completed: 297 ms	 
+diagnostics: 0	103	Finished successfully: 05 Jan 2021, 14:13:28	atu_100_fw_00.mcppi
