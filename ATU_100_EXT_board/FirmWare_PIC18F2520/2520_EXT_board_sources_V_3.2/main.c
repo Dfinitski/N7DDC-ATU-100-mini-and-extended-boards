@@ -649,6 +649,24 @@ void lcd_pwr() {
       if(PWR>p) {p = PWR; SWR_fixed = SWR;}
       Delay_ms(3);
    }
+  asm CLRWDT;
+   if(p>=100){ p = (p + 5) / 10; p*= 10; }  // round to 1 W if more then 100 W
+   Power = p;
+   if(Power<10) SWR_fixed = 0;
+   lcd_swr(SWR_fixed);
+   if(Power>=10 & Dysp_delay>0) {
+      if(dysp==0){ dysp = 1; dysp_on(); }          // dysplay ON
+      dysp_cnt = Dysp_delay * dysp_cnt_mult;
+   }
+   //
+   if(Auto & SWR_fixed>=Auto_delta & ((SWR_fixed>SWR_fixed_old & (SWR_fixed-SWR_fixed_old)>delta) | (SWR_fixed<SWR_fixed_old & (SWR_fixed_old-SWR_fixed)>delta) | SWR_fixed_old==999))
+      Soft_tune = 1;
+   //
+   if(PORTB.B1==0 | PORTB.B2==0 | (PORTB.B0==0 & tune_btn_release)) {button_delay(); if(but==1) {but = 0; return;} }   // Fast return if button pressed
+   //
+   show_pwr(Power, SWR_fixed);
+   //
+   if(PORTB.B1==0 | PORTB.B2==0 | (PORTB.B0==0 & tune_btn_release)) {button_delay(); if(but==1) {but = 0; return;} }
    asm CLRWDT;
    if(Overload==1) {
       if(type==4 | type==5) {                  // 128*64 OLED
